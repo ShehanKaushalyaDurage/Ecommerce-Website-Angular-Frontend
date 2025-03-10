@@ -1,59 +1,59 @@
-# Ecommerce
+# Angular Frontend Design
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
+## Introduction
+This repository contains a basic frontend design built using **Angular**, a powerful framework for developing dynamic, scalable, and maintainable web applications. The project serves as an introductory guide to Angular's core concepts, including components, modules, routing, and data binding.
 
-## Development server
+## Features
+- Modular component-based architecture  
+- Responsive UI with Angular Material (optional)  
+- Basic routing implementation  
+- State management using Angular services  
+- Simple form handling and data binding  
 
-To start a local development server, run:
+## Getting Started
 
-```bash
-ng serve
+### Prerequisites
+Ensure you have the following installed on your system:
+- **Node.js** (latest LTS recommended)
+- **Angular CLI** (`npm install -g @angular/cli`)
+
+### Installation
+1. Clone the repository:  
+   ```sh
+   git clone https://github.com/ShehanKaushalyaDurage/BigBasket-Ecommerce-Angular-Website.git
+   cd BigBasket-Ecommerce-Angular-Website
+   ```
+2. Install dependencies:  
+   ```sh
+   npm install
+   ```
+3. Start the development server:  
+   ```sh
+   ng serve
+   ```
+4. Open your browser and visit: `http://localhost:4200/`
+
+## Project Structure
+```
+angular-frontend/
+│-- src/
+│   │-- app/             # Angular components, modules, services
+│   │-- assets/          # Static assets (images, fonts, etc.)
+│   │-- environments/    # Environment-specific settings
+│   │-- index.html       # Main HTML file
+│   │-- main.ts          # Application entry point
+│-- angular.json         # Angular configuration
+│-- package.json         # Dependencies and scripts
+│-- README.md            # Project documentation
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Learn More About Angular
+If you're new to Angular, check out the official documentation:  
+🔗 [Angular Docs](https://angular.io/docs)
 
-## Code scaffolding
+## Contributing
+Feel free to fork this repository, submit pull requests, or suggest improvements.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## License
+This project is licensed under the **MIT License**.
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
